@@ -27,8 +27,7 @@ a tiebreaker.  The winners of the first round games will play the
 respective first seeds in the division championships (second round) in
 NFL Week 15.  The two division championship winners will face off in the
 CDF Super Bowl in NFL Week 16.
--	Each team will start 1 QB, 2 RB, 3 WR, 1 flex (RB/WR/TE), 1 TE, 1 K, 1
-DEF, 2 DL, 3 LB, 2 DB, 1 DL/DB, for a total of 18 starters.
+-	Each team will start 1 QB, 2 RB, 3 WR, 1 flex (RB/WR/TE), 1 TE, 1 K, 2 DL, 3 LB, 2 DB, 1 DL/DB, for a total of 17 starters.
 -	Position designations are based on the hosting site (e.g-   Yahoo or
 MyFantasyLeague), and will not be changed.
 -	Scoring:
