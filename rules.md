@@ -33,9 +33,8 @@ DEF, 2 DL, 3 LB, 2 DB, 1 DL/DB, for a total of 18 starters.
 MyFantasyLeague), and will not be changed.
 -	Scoring:
 	-	Decimal and negative scoring are allowed.
-	-	All players are eligible to receive points for individual statistics
-(all stats other than team defense stats), regardless of position
-designation, if the hosting site scoring system allows.
+	-	All players are eligible to receive points for individual statistics,
+  regardless of position designation, if the hosting site scoring system allows.
 	-	Offense:
 		-   1 point/25 passing yards (including negative points for negative yards)
 		-   1 point/10 rushing yards (including negative points for negative yards)
@@ -58,18 +57,6 @@ designation, if the hosting site scoring system allows.
 		-   1 point/extra point
 		-   -1 point/missed extra point
 		-   -1 point/missed 1-29 yard FG
-	-	Team defense:
-		-   10 points/defense allows 0 points
-		-   7 points/defense allows 1-6 points
-		-   5 points/defense allows 7-13 points
-		-   2 points/defense allows 14-20 points
-		-   -2 points/defense allows 28-34 points
-		-   -4 points/defense allows 35+ points
-		-   6 points/defensive or special teams touchdown
-		-   1 point/defensive sack
-		-   2 points/defensive interception
-		-   2 points/defensive fumble recovered
-		-   2 points/defensive safety
 	-	Individual Defensive Players:
 		-   1 point/solo tackle
 		-   .5 points/assisted tackle
@@ -81,6 +68,27 @@ designation, if the hosting site scoring system allows.
 		-   2 points/blocked kick (FG/XP) or punt
 		-   2 points/safety
 		-   6 points/touchdown
+  	- 	As of the 2013 season, Fantrax allows the below cross-position scoring.  Each section has the stats for the positional group, along with the other positional groups that Fantrax allows to score that stat (e.g. Defensive players and Kickers for Offense stats).
+    	- Offense:
+      		- Fumble Lost: allowed for Defensive players
+      		- Passing TD: allowed for Kickers
+      		- Passing Yards: allowed for Defensive players and Kickers
+      		- Receptions: allowed for Defensive players
+      		- Receiving TD: allowed for Kickers
+      		- Receiving Yards: allowed for Defensive players and Kickers
+      		- Rushing TD: allowed for Kickers
+      		- Rushing Yards: allowed for Defensive players and Kickers
+    	- Defense:
+      		- Blocked FG: allowed for Offensive players
+      		- Blocked Punt: allowed for Offensive players
+      		- Blocked XP: allowed for Offensive players
+      		- Forced Fumble: allowed for Offensive players and Kickers
+      		- Solo Tackle: allowed for Offensive players and Kickers
+      		- Assisted Tackle: allowed for Offensive players and Kickers
+    	- Kicking:
+      		- no Kicking stats allowed for Offensive players or Defensive players
+    	- Google group reference:
+      		- Fantrax scoring audit: https://groups.google.com/d/topic/chicago-dynasty-football/hpuRzhUXsIk/discussion
 
 **Free Agency Auctions:**
 
@@ -128,6 +136,14 @@ was on time, the bid is null and void.
 -	FA$ balances will be tracked and updated through a Google spreadsheet.
 -	The exact start and deadline dates for all Free Agency phases will be
 set during the season.
+- Injury Exception vote:
+	- An owner may call an injury exception vote while he is winning or has won a player auction, and the value of the player changed substantially while the owner was winning the auction or after the auction concluded (example: Nate Burleson injury during 2013 season).  The value change would most commonly be due to injury but may be caused by other off the field events; it is at the discretion of the owner to call an injury exception vote as he sees fit.
+	- The owner must email the league and bring up that he is calling for an injury exception vote for an auction, and must get half of the league (6+ owners) other than himself to agree to waive the auction.  The owner must get the necessary votes by the next Sunday kickoff, or 7 days after calling the vote if during the offseason or preseason.
+	- If the vote passes, the player goes back to the free agent pool and may be bid on in subsequent auctions, and the owner has the FA$ credited back to his balance.
+	- If the vote does not pass, the auction is processed as usual; the player is added to the roster of the owner and the FA$ is deducted from his balance.
+	- Google group reference
+    	- Injury exception vote from Nate Burleson injury (9/24/13): https://groups.google.com/d/topic/chicago-dynasty-football/o5os5ZN1kLc/discussion
+
 
   
  **Offseason Free Agency:**
@@ -285,25 +301,89 @@ times are CST):
 	-   Mike bids on Matt Forte for $7 (since the bid has reached $5, the minimum bid increment is now $2) on Wednesday at 8:17 PM.  Since the bid is within the 30 minute extension, the bid deadline is extended another 30 minutes, to 9:00 PM.
 	-   Joe bids on Matt Forte for $9 on Wednesday at 8:28 PM.  The bid deadline is still 9:00 PM.
 	-   No more bids by 9:00 PM.  Joe wins Matt Forte for $9.
+- Players must be added on the hosting site (with a corresponding drop/trade, if applicable), by Sunday kickoff.
+	- Players playing on earlier than Sunday kickoff (e.g. Thursday night) may be added after their game has started.  However, a player being dropped/traded to free up a roster slot may not be dropped/traded after their game has started.
+- If a player that was won as a free agent is not added on the hosting site by Sunday kickoff, we will use the following rule (the "late add" rule):
+	- For each player that was not added (that would make the owner go over the roster limit), add the player and drop the lowest MyFantasyLeague percentage owned non-starting active roster (not on IR or PS) player on the same side of the ball (offensive players - including kickers, or defensive players).  The ownership percentage for the specific week will be used.
+	- MyFantasyLeague percentage owned can be viewed by going to a MFL league site and going to Reports -> Player -> Top Adds/Drops/Starters, then selecting Owned, Any Status, the position, and the week.
+	- Google group references:
+		- 2010 Jason Snelling auction (10/5/10): https://groups.google.com/d/topic/chicago-dynasty-football/H-BRXO8NvKk/discussion
+		- Late adds revisited (9/24/12): https://groups.google.com/d/topic/chicago-dynasty-football/hpA-Ni620vo/discussion
 
   
 
 **Roster Limits:**
 
--	The in-season roster limit is 40 players.  This is the period from the
-end of preseason (late August), to the start of the offseason (early
-March).
--	The offseason roster limit is 30 players until Offseason Free Agency
-begins.  This is the period from when RFAs and UFAs are designated
-(early March) until Offseason Free Agency auctions begin (late March). 
-After Offseason Free Agency auctions begin, the roster limit goes up to
-46 players.  This 46 player limit continues through the rookie draft
-(May-early June) and Preseason Free Agency (late July-mid August).
--	After the conclusion of the preseason (late August), right before the
-season begins, the rosters go back down to the 40 player in-season
-limit.
+-	The in-season roster limit is 40 players, with 2 IR players and 2 PS players.
+  This is the period from the end of preseason (late August), to the start of the offseason (early March).
+-	The offseason roster limit is 30 players, with 2 PS players (no IR players), until Offseason Free Agency begins.
+  This is the period from when RFAs and UFAs are designated (early March) until Offseason Free Agency auctions begin (late March). 
+- After Offseason Free Agency auctions begin, the roster limit goes up to 46 players, and there is no separate PS.  However, players that
+  were previously on the PS going in to the offseason may still be added to the PS for the next season.
+- The 46 player limit continues through the rookie draft (May-early June) and Preseason Free Agency (late July-mid August).
+-	After the conclusion of the preseason (late August), right before the season begins, the rosters go back down to the 40 player in-season limit, with 2 IR players and 2 PS players.
 
   
+
+**Injured Reserve (IR):**
+
+- Two IR roster slots were added starting in the 2012 season.  Players occupying
+  these IR slots do not count against the in-season roster limit.
+- IR slot eligibility is based on the hosting site.
+	- For Fantrax (as of the 2013 season), players on PUP (injured during preseason
+  and out for first 6 weeks of season or temporary IR (IR designated for return)
+  are eligible for the IR slot.  They will continue to be eligible as long as it is
+  allowed by Fantrax.
+- For players on PUP or temporary IR/designated for return, they must be moved to
+  active roster (with a corresponding drop/trade if at the roster limit) when being
+  activated from the PUP or IR.
+- There is no restriction on position of players that are in the IR slot.
+- IR players may be dropped directly from IR, they do not need to be activated
+  first.
+- IR begins at the start of the regular season.  When cutting down rosters
+  to the in-season limit of 40 players, you can designate up to 2 additional players
+  (that are eligible) to start the season in your IR slots.
+- IR ends after the regular season: After the season is over, you no longer have IR slots,
+  and you need to cut down to the regular 30 players + 2 RFAs.
+- Drops: IR players may be dropped directly from IR, do not need to activate first.
+- Trades: IR players may not be traded directly from IR, they must be activated first
+  (with corresponding drop/IR deactivation from active roster).
+- Adding an IR-eligible player as a free agent: When you add an IR-eligible player,
+  he has to be added to active roster first (with a corresponding drop/trade if at the
+  roster limit), then moved to IR.
+- Google group references:
+	- Initial discussion (3/5/12): https://groups.google.com/forum/#!topic/chicago-dynasty-football/w5xmlcmATmQ/discussion
+	- NFL IR rule change for temporary IR (5/23/12): https://groups.google.com/d/topic/chicago-dynasty-football/Lec93vdmKfA/discussion
+	- IR on Fantrax, discussion on PUP/temporary IR (9/2/12): https://groups.google.com/d/topic/chicago-dynasty-football/k5-7fmGieLI/discussion
+
+
+
+**Practice Squad (PS):**
+
+- Two PS roster slots were added starting in the 2013 season.  Players occupying
+  these PS slots do not count against the in-season roster limit.
+- The PS players are declared at the start of the season, along with IR players and cuts down to 40 man active roster.
+- To be eligible for the PS, the player must be a rookie drafted in the most recent CDF rookie draft
+  (may not be a rookie added in preseason free agency) that was declared for PS at the start of the season,
+  or a player that was previously on the PS (was a rookie in previous years that was never activated from the PS).
+- PS players may not be added to the starting lineup.
+- PS players may be activated by moving them to the active roster (with a corresponding drop/trade if
+  at the roster limit).  After being activated, the PS player may be added to the starting lineup.
+- Once activated, a player previously on the PS may not be moved back to the PS.
+- Traded PS players may remain on PS (as long as within 2 man limit) or they may be activated without adding to PS first
+- PS players must be moved to 40-man active roster first before being moved to IR.
+- PS players are separate from the normal offseason roster limits - going in to the offseason, there is the usual 30 man
+  roster, 2 RFA, 8-10 UFA, and 2 man PS.
+- When rosters expand during the offseason to 46 players, PS players are included in the 46 man roster limit, there is no separate PS.
+  However, players that were previously on the PS going in to the offseason may still be added to the PS for the next season.
+- PS players are tracked on Fantrax as minor league slots.
+- When activating a PS player during the season, the owner must send an email to the league to indicate that he is activating
+  the player.
+- Google group references:
+	- 2012 rules discussion (2/28/12): https://groups.google.com/d/topic/chicago-dynasty-football/rbJ7IWrtK0I/discussion
+	- Practice squad rules discussion (3/31/13): https://groups.google.com/d/topic/chicago-dynasty-football/ERGVz_XTH2U/discussion
+
+
 
 **Trading:**
 
@@ -345,6 +425,18 @@ season (or in-season, if the trades are disrupting the competitive
 balance of the league).
 
   
+
+**In-season Roster Management and Lineups:**
+
+- Once a player’s game has started, he cannot be involved in a transaction (drop, trade or IR) for that week.  This will cover these scenarios:
+	- Dropping for a free agent add or trade that week
+	- Trading a player playing on Thursday for a player playing on Sunday, and getting both of their stats (or trading a player playing the early Sunday games for a player playing on Monday night, etc).  If these trades are decided on prior between the games of the involved players, they should be executed for the next week.
+	- Moving to IR to activate a player from IR/PS or to add a player (very unlikely, but still should be covered)
+- Penalty for starting a LB (who is not eligible at DL/DB) in IDP flex slot (which is DL or DB only) is an automatic 0 for that player.  This is currently possible to do in Fantrax, which only uses a generic IDP flex slot and not a DL/DB flex slot.
+- Google group reference:
+	- 2014 rules doc update (1/17/14): https://groups.google.com/d/topic/chicago-dynasty-football/Cr0SJ3zRs64/discussion
+
+
 
 **Administrative:**
 
@@ -438,7 +530,17 @@ be specified before each season.
 -   Bidding for each week opens after Sunday games kick off
 -   Add wording about FA$ being tied up while RFA process is ongoing
 
-  
+2014 offseason
+
+-   Moved rules doc to markdown format (with conversion to RTF), added source control with git, and hosted on github
+-   Removed mentions of team defense
+-   Add IR slot rules
+-   Add PS slot rules
+-   Add late add rule to In-Season Free Agency section
+-   Add injury exception vote to Free Agency Auctions section
+-   Add In-season Roster Management and Lineups section
+-   Roster limit section update for IR and PS
+-   Add cross-position scoring allowed by Fantrax
 
   
 
